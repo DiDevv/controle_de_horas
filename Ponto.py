@@ -20,6 +20,7 @@ def tempo_restante(hora_inicial:str, horas_totais:str, horas_trabalhadas:str, de
 
     return f"""
             Carga horária diária: {horas_totais_}
+            Horas já trabalhadas hoje: {horas_trabalhadas_hoje_}
             Ainda faltam: {restam},
             Horário de Início: {hora_inicial}
             Horas descontadas: {desconto_}

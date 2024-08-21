@@ -22,6 +22,7 @@ def tempo_restante(hora_inicial:str, horas_totais:str, horas_trabalhadas:str, de
             Carga horária diária: {horas_totais_}
             Ainda faltam: {restam},
             Horário de Início: {hora_inicial}
+            Horas descontadas: {desconto_}
             Precisa trabalhar até: {trabalhar_ate}, para atingir as {horas_totais_} horas diárias.
             """
 
